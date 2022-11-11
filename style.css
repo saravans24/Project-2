@@ -8,13 +8,13 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png),linear-gradient(rgba(4, 1, 54, 0.74), rgba(0, 0, 0, 0.74));
   background-color: gray;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-color: #0000007d;
-  background-blend-mode: color;
+  background-blend-mode: darken;
 }
 
 /* ------------------------------ */
@@ -47,6 +47,7 @@ nav div button {
   border: none;
   padding: 10px 30px;
   color: white;
+  font-size: 20px;
 }
 
 /* ------------------------------ */
@@ -68,6 +69,7 @@ nav div button {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  font-size: 30px;
 }
 
 .bottom {
